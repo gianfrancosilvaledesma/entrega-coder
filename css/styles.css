@@ -1,0 +1,76 @@
+
+body{
+    background-color: brown;
+    
+
+}
+.logo{
+    text-align: center;
+}
+
+h1{
+    text-align:justify;
+    text-decoration: underline;
+}
+
+header{
+    text-align: center;
+    background-color: brown;
+    color: goldenrod;
+    font-style: initial;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+ul{
+list-style:none;
+text-decoration:none;
+}
+
+.tabla{
+    text-decoration:wavy;
+    color: goldenrod;
+}
+.cervezas{
+  font-size: xx-large;
+  text-align: start;
+}
+footer{
+    text-align: center;
+   font-size: xx-large;
+   text-decoration: none;
+   color: palegoldenrod;
+   
+}
+
+.box{
+    background-color: red;
+    height: 150px ;
+    width: 150px;
+    border: 8px solid palevioletred;
+    margin: 30px;
+    padding: 60px;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.box p{
+    text-align: center;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px; ;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
