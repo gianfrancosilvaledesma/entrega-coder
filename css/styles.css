@@ -56,20 +56,29 @@ text-decoration:none;
     border-radius: 10%
 }
 
+.cerveza-padre{
+    display: grid;
+    text-align: center;
+    color: aqua;
+    gap: 25px;
+    text-decoration: none;
+    color: goldenrod;
+}
+
 .tabla{
     text-decoration:wavy;
     color: goldenrod;
 }
 .cervezas{
-    display: grid;
-    gap: 220px;
-    color: brown;
+color: blueviolet;
+text-decoration: solid;
+border: 8px solid rgba(169, 224, 15, 0.76);
   font-size: xx-large;
   list-style: none;
-  text-decoration:none;
 }
+
 #registroForm{
-display: flex;
+display: grid;
 color: darkgoldenrod;
 text-decoration-line: underline;
 text-align: justify;
@@ -107,7 +116,7 @@ footer{
 }
 
 .container{
-    display: flex;
+    display: fl
     flex-wrap: wrap;
     justify-content:center;
 }
