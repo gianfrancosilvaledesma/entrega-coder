@@ -1,13 +1,18 @@
 
 body{
     background-color: brown;
-    
+    font-size: 50px;
+    padding: 15px;
+}
 
+
+main{
+    align-items: center;
 }
 .logo{
-    text-align: center;
-    position: relative;
-    left: 350px;
+    align-content: center;
+    height: fit-content;
+    position: sticky;
     border-radius: 50%
     
 }
@@ -19,7 +24,7 @@ body{
 }
 
 h1{
-    text-align:justify;
+    text-align:center;
     text-decoration: underline;
 }
 
@@ -27,21 +32,19 @@ h2{
    border: 8px solid rgba(26, 65, 0, 0.76);
     text-align: center;
     padding: 30px;
-
-   
+    
 }
     
 
 
-/*header{
-    text-align: center;
-    background-color: brown;
+header{
+    
     color: goldenrod;
     font-style: initial;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
-*/
+
 ul{
 list-style:none;
 text-decoration:none;
@@ -52,7 +55,7 @@ list-style:none;
 text-decoration:none;
 }
 
-.mapa{
+#mapa{
     border-radius: 10%
 }
 
@@ -136,3 +139,21 @@ footer{
     flex-direction: row;
     gap: 30px;
 }
+
+@media (min-width: 600px) {
+    body {
+        background-color: green;
+        font-size: 18px;
+        padding: 20px;
+    }
+}
+
+
+    @media (min-width: 1024px) {
+        body {
+            background-color: blue;
+            font-size: 20px;
+            padding: 30px;
+        }
+
+    }
