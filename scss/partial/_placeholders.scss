@@ -1,0 +1,11 @@
+@use 'variables';
+
+%no-list-style {
+  list-style: none;
+  text-decoration: none;
+}
+
+%golden-text {
+  color: variables.$color-goldenrod;
+  text-decoration: none;
+}

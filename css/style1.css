@@ -1,0 +1,207 @@
+.cervezas {
+  list-style: none;
+  text-decoration: none;
+}
+
+.cerveza-padre, .tabla {
+  color: goldenrod;
+  text-decoration: none;
+}
+
+main {
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2 {
+  text-align: center;
+  padding: 30px;
+  border: 8px solid rgba(26, 65, 0, 0.76);
+}
+
+h3 {
+  text-align: center;
+  font-family: cursive;
+  text-decoration: underline double;
+}
+
+h4 {
+  background-color: goldenrod;
+  color: brown;
+}
+
+h5 {
+  background-color: blueviolet;
+}
+
+header {
+  color: goldenrod;
+  font-style: initial;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#mapa {
+  border-radius: 10%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer {
+  text-align: right;
+  font-size: xx-large;
+}
+
+.logo {
+  align-content: center;
+  height: fit-content;
+  position: sticky;
+  border-radius: 50%;
+}
+
+.logo2 {
+  position: fixed;
+  bottom: 50px;
+  right: 10px;
+}
+
+.cerveza-padre {
+  display: grid;
+  text-align: center;
+  gap: 25px;
+}
+
+.tabla {
+  text-decoration: wavy;
+}
+
+.cervezas {
+  color: blueviolet;
+  text-decoration: solid;
+  border: 8px solid rgba(169, 224, 15, 0.76);
+  font-size: xx-large;
+}
+
+.form-control {
+  background-color: goldenrod;
+}
+
+#registroForm {
+  display: grid;
+  color: darkgoldenrod;
+  text-decoration-line: underline;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: large;
+  font-style: oblique;
+}
+
+.formulario1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box {
+  background-color: red;
+  height: 150px;
+  width: 150px;
+  border: 8px solid palevioletred;
+  margin: 30px;
+  padding: 60px;
+}
+.box p {
+  text-align: center;
+}
+
+.boton {
+  size-adjust: 50%;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+@media (min-width: 300px) {
+  body {
+    background-color: green;
+    font-size: 18px;
+    padding: 20px;
+  }
+  .logo {
+    align-content: center;
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+  }
+  #mapa {
+    border-radius: 10%;
+    width: 80%;
+  }
+  .video {
+    width: 70%;
+    border: 4px solid gold;
+  }
+}
+@media (min-width: 600px) {
+  body {
+    background-color: blue;
+    font-size: 20px;
+    padding: 30px;
+  }
+  .logo {
+    position: relative;
+    left: 200px;
+    border-radius: 50%;
+    width: 400px;
+    height: auto;
+  }
+  #mapa {
+    border-radius: 10%;
+    width: 80%;
+  }
+  .video {
+    width: 70%;
+    border: 4px solid gold;
+  }
+}
+@media (min-width: 900px) {
+  body {
+    background-color: brown;
+    font-size: 30px;
+    padding: 15px;
+  }
+  .logo {
+    position: relative;
+    left: 200px;
+    border-radius: 50%;
+    width: 600px;
+    height: auto;
+  }
+  #mapa {
+    border-radius: 10%;
+    width: 80%;
+  }
+  .video {
+    width: 70%;
+    border: 4px solid gold;
+  }
+}
+
+/*# sourceMappingURL=style1.css.map */

@@ -1,0 +1,42 @@
+@use 'mixins';
+@use 'variables';
+
+main {
+  align-items: center;
+}
+
+h1 {
+  @include mixins.center-text;
+  @include mixins.underline-text;
+}
+
+h2 {
+  @include mixins.center-text;
+  padding: 30px;
+  @include mixins.border-solid(8px, rgba(26, 65, 0, 0.76));
+}
+
+h3 {
+  @include mixins.center-text;
+  font-family: cursive;
+  text-decoration: underline double;
+}
+
+h4 {
+  background-color: variables.$color-goldenrod;
+  color: variables.$color-brown;
+}
+
+h5 {
+  background-color: variables.$color-blueviolet;
+}
+
+ul, li {
+  @extend %no-list-style !optional;
+}
+
+header {
+  color: variables.$color-goldenrod;
+  font-style: initial;
+  font-family: variables.$font-cambria;
+}

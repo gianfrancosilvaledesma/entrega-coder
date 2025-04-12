@@ -1,0 +1,21 @@
+@mixin center-text {
+  text-align: center;
+}
+
+@mixin underline-text {
+  text-decoration: underline;
+}
+
+@mixin flex-column($gap: 10px) {
+  display: flex;
+  flex-direction: column;
+  gap: $gap;
+}
+
+@mixin border-rounded($radius: 10%) {
+  border-radius: $radius;
+}
+
+@mixin border-solid($width, $color) {
+  border: $width solid $color;
+}

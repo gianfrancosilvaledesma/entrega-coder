@@ -1,0 +1,79 @@
+@use 'mixins';
+@use 'variables';
+
+@media (min-width: 300px) {
+  body {
+    background-color: green;
+    font-size: 18px;
+    padding: 20px;
+  }
+
+  .logo {
+    align-content: center;
+    @include mixins.border-rounded(50%);
+    width: 200px;
+    height: auto;
+  }
+
+  #mapa {
+    @include mixins.border-rounded;
+    width: 80%;
+  }
+
+  .video {
+    width: 70%;
+    border: 4px solid gold;
+  }
+}
+
+@media (min-width: 600px) {
+  body {
+    background-color: blue;
+    font-size: 20px;
+    padding: 30px;
+  }
+
+  .logo {
+    position: relative;
+    left: 200px;
+    @include mixins.border-rounded(50%);
+    width: 400px;
+    height: auto;
+  }
+
+  #mapa {
+    @include mixins.border-rounded;
+    width: 80%;
+  }
+
+  .video {
+    width: 70%;
+    border: 4px solid gold;
+  }
+}
+
+@media (min-width: 900px) {
+  body {
+    background-color: brown;
+    font-size: 30px;
+    padding: 15px;
+  }
+
+  .logo {
+    position: relative;
+    left: 200px;
+    @include mixins.border-rounded(50%);
+    width: 600px;
+    height: auto;
+  }
+
+  #mapa {
+    @include mixins.border-rounded;
+    width: 80%;
+  }
+
+  .video {
+    width: 70%;
+    border: 4px solid gold;
+  }
+}

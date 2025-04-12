@@ -1,0 +1,81 @@
+@use 'mixins';
+@use 'variables';
+@use 'placeholders';
+
+.logo {
+  align-content: center;
+  height: fit-content;
+  position: sticky;
+  @include mixins.border-rounded(50%);
+}
+
+.logo2 {
+  position: fixed;
+  bottom: 50px;
+  right: 10px;
+}
+
+.cerveza-padre {
+  display: grid;
+  @include mixins.center-text;
+  gap: 25px;
+  @extend %golden-text !optional;
+}
+
+.tabla {
+  text-decoration: wavy;
+  @extend %golden-text;
+}
+
+.cervezas {
+  color: variables.$color-blueviolet;
+  text-decoration: solid;
+  @include mixins.border-solid(8px, rgba(169, 224, 15, 0.76));
+  font-size: xx-large;
+  @extend %no-list-style;
+}
+
+.form-control {
+  background-color: variables.$color-goldenrod;
+}
+
+#registroForm {
+  display: grid;
+  color: variables.$color-darkgoldenrod;
+  text-decoration-line: underline;
+  text-align: justify;
+  @include mixins.flex-column;
+  font-size: large;
+  font-style: oblique;
+}
+
+.formulario1 {
+  @include mixins.flex-column;
+}
+
+.box {
+  background-color: red;
+  height: 150px;
+  width: 150px;
+  @include mixins.border-solid(8px, variables.$color-palevioletred);
+  margin: 30px;
+  padding: 60px;
+
+  p {
+    @include mixins.center-text;
+  }
+}
+
+.boton {
+  size-adjust: 50%;
+}
+
+.form-container {
+  @include mixins.flex-column(30px);
+}
+
+.formulario {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}

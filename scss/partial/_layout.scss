@@ -1,0 +1,17 @@
+@use 'mixins';
+@use 'variables';
+
+#mapa {
+  @include mixins.border-rounded;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer {
+  @extend %golden-text !optional;
+  text-align: right;
+  font-size: xx-large;
+}
