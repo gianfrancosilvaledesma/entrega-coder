@@ -53,9 +53,18 @@ header {
   flex-wrap: wrap;
 }
 
+@keyframes animation1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 footer {
   text-align: right;
   font-size: xx-large;
+  animation: animation1 2s infinite;
 }
 
 .logo {
