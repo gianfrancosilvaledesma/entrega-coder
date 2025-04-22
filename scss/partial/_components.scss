@@ -7,13 +7,15 @@
 .logo {
   align-content: center;
   height: fit-content;
+  width: 50%;
+  height: auto;
   position: sticky;
   @include mixins.border-rounded(50%);
 }
 
 .logo2 {
   position: fixed;
-  bottom: 50px;
+  bottom: 80px;
   right: 10px;
 }
 
@@ -22,6 +24,7 @@
   @include mixins.center-text;
   gap: 25px;
   @extend %golden-text !optional;
+  list-style-type: none;
 }
 
 .tabla {
@@ -29,8 +32,11 @@
   @extend %golden-text;
 }
 
+.imagen{
+background-image: url(../../img-cerveceria/fondo.jpg)
+}
 .cervezas {
-  color: variables.$color-blueviolet;
+  color: variables.$color-darkgoldenrod;
   text-decoration: solid;
   @include mixins.border-solid(8px, rgba(169, 224, 15, 0.76));
   font-size: xx-large;

@@ -30,7 +30,7 @@ h3 {
 }
 
 h4 {
-  background-color: goldenrod;
+  background-color: blueviolet;
   color: brown;
 }
 
@@ -70,13 +70,15 @@ footer {
 .logo {
   align-content: center;
   height: fit-content;
+  width: 50%;
+  height: auto;
   position: sticky;
   border-radius: 50%;
 }
 
 .logo2 {
   position: fixed;
-  bottom: 50px;
+  bottom: 80px;
   right: 10px;
 }
 
@@ -84,14 +86,19 @@ footer {
   display: grid;
   text-align: center;
   gap: 25px;
+  list-style-type: none;
 }
 
 .tabla {
   text-decoration: wavy;
 }
 
+.imagen {
+  background-image: url(../../img-cerveceria/fondo.jpg);
+}
+
 .cervezas {
-  color: blueviolet;
+  color: darkgoldenrod;
   text-decoration: solid;
   border: 8px solid rgba(169, 224, 15, 0.76);
   font-size: xx-large;
