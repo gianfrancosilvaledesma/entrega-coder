@@ -8,7 +8,17 @@
     padding: 20px;
   }
 
+  h2{
+font-size: medium;
+  }
+
+  .cervezas{
+    font-size: medium;
+  }
+
   .logo {
+    position: relative;
+    left: 180px;
     align-content: center;
     @include mixins.border-rounded(50%);
     width: 200px;
@@ -31,6 +41,12 @@
     background-color: blue;
     font-size: 20px;
     padding: 30px;
+  }
+  h2{
+    font-size: large;
+      }
+  .cervezas{
+    font-size:x-large;
   }
 
   .logo {
@@ -56,12 +72,19 @@
   body {
     background-color: brown;
     font-size: 30px;
-    padding: 15px;
+    padding: 30px;
+  }
+
+  h2{
+    font-size: x-large;
+      }
+  .cervezas{
+    font-size: xx-large;
   }
 
   .logo {
     position: relative;
-    left: 200px;
+    left: 480px;
     @include mixins.border-rounded(50%);
     width: 600px;
     height: auto;

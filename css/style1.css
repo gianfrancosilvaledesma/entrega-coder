@@ -19,7 +19,7 @@ h1 {
 
 h2 {
   text-align: center;
-  padding: 30px;
+  padding: 10px;
   border: 8px solid rgba(26, 65, 0, 0.76);
 }
 
@@ -64,14 +64,13 @@ header {
 footer {
   text-align: right;
   font-size: xx-large;
-  animation: animation1 2s infinite;
 }
 
 .logo {
-  align-content: center;
-  height: fit-content;
-  width: 50%;
-  height: auto;
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center; /* vertical */
+  width: 25% !important;
   position: sticky;
   border-radius: 50%;
 }
@@ -91,10 +90,6 @@ footer {
 
 .tabla {
   text-decoration: wavy;
-}
-
-.imagen {
-  background-image: url(../../img-cerveceria/fondo.jpg);
 }
 
 .cervezas {
@@ -160,7 +155,15 @@ footer {
     font-size: 18px;
     padding: 20px;
   }
+  h2 {
+    font-size: medium;
+  }
+  .cervezas {
+    font-size: medium;
+  }
   .logo {
+    position: relative;
+    left: 180px;
     align-content: center;
     border-radius: 50%;
     width: 200px;
@@ -180,6 +183,12 @@ footer {
     background-color: blue;
     font-size: 20px;
     padding: 30px;
+  }
+  h2 {
+    font-size: large;
+  }
+  .cervezas {
+    font-size: x-large;
   }
   .logo {
     position: relative;
@@ -201,11 +210,17 @@ footer {
   body {
     background-color: brown;
     font-size: 30px;
-    padding: 15px;
+    padding: 30px;
+  }
+  h2 {
+    font-size: x-large;
+  }
+  .cervezas {
+    font-size: xx-large;
   }
   .logo {
     position: relative;
-    left: 200px;
+    left: 480px;
     border-radius: 50%;
     width: 600px;
     height: auto;

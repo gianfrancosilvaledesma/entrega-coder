@@ -5,10 +5,10 @@
 
 
 .logo {
-  align-content: center;
-  height: fit-content;
-  width: 50%;
-  height: auto;
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+  width: 25% !important;
   position: sticky;
   @include mixins.border-rounded(50%);
 }
@@ -32,9 +32,7 @@
   @extend %golden-text;
 }
 
-.imagen{
-background-image: url(../../img-cerveceria/fondo.jpg)
-}
+
 .cervezas {
   color: variables.$color-darkgoldenrod;
   text-decoration: solid;
